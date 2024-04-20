@@ -22,8 +22,8 @@
 
 class StringBuilder {
     #value;
-    constructor(params) {
-        this.#value = params.value;
+    constructor(initialValue) {
+        this.#value = initialValue.value;
     }
 
     getValue() {
